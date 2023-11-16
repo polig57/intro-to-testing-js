@@ -40,4 +40,10 @@ describe('isFive', function() {
     it('should be a defined function', function() {
         expect(typeof isFive).toBe('function');
     });
+    it('should return true when passed in "5"', function() {
+        expect(isFive('5')).toBeTruthy();
+    });
+    it('should return a boolean no matter the input', function() {
+        expect(isFive()).toBeFalsy();
+    });
 });

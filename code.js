@@ -12,7 +12,6 @@ function sayHello(input) {
     return 'Hello, World!'
 }
 function isFive(input) {
-    if(input === 5) {
-        return true
-    }
+    input = Number(input);
+    return input === 5;
 }
