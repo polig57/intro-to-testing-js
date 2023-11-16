@@ -15,3 +15,8 @@ function isFive(input) {
     input = Number(input);
     return input === 5;
 }
+const isEven = (input) => {
+    if(input % 2 === 0 ) {
+        return true
+    }
+}
